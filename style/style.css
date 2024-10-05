@@ -13,4 +13,25 @@ header {
 
 h1 {
   text-align: center;
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+nav {
+  padding: 15px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: black;
 }
