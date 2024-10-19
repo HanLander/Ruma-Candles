@@ -81,7 +81,7 @@ p {
   text-align: center;
 }
 
-.about-hero {
+.page-hero {
   background-image: url("../src/Ruma_banner_background_crop.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,4 +100,8 @@ p {
   margin-left: 30px;
   margin-top: 70px;
   border-radius: 3px;
+}
+
+.contact-h1 {
+  color: white;
 }
