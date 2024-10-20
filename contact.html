@@ -51,17 +51,62 @@
           </header>
         </div>
         <main>
-          <h3>Contact us using the form below</h3>
+          <h2>Contact us using the form below</h2>
 
-          <form action="/submit">
-            <label for="name"> Enter your name:</label>
-            <input type="text" />
-            <label for="email">Type your message</label>
-            <input type="email" />
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                required
+                minlength="2"
+                placeholder="Enter your name"
+                autofocus="on"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="Enter your email adress"
+                autofocus="on"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="message"
+                required
+                placeholder="Type your message"
+                autofocus="on"
+              />
+            </div>
+            <div class="form-group">
+              <input type="submit" id="submit" />
+            </div>
           </form>
-
-          <h4>Follow us on Instagram</h4>
-          <h4>Find us on Etsy</h4>
+          <div class="contact-link">
+            <h4>Follow us on Instagram</h4>
+            <p>
+              <a
+                href="https://www.instagram.com/rumacandles/?locale=%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E5%8D%A1%E5%A1%94%E5%B0%94%E8%81%8C%E4%B8%9A%E8%AF%81%E4%B9%A6%E3%80%96%E5%A8%81%E4%BF%A1%2BTG%2F%E9%A3%9E%E6%9C%BA%3A%40buth2788%E3%80%97PiMgK&hl=ar"
+                target="_blank"
+                >@rumacandles</a
+              >
+            </p>
+          </div>
+          <div class="contact-link">
+            <h4>Find us on Etsy</h4>
+            <p>
+              <a
+                href="https://www.etsy.com/uk/shop/RumaCandles"
+                target="_blank"
+              >
+                Etsy shop</a
+              >
+            </p>
+          </div>
         </main>
       </div>
     </body>

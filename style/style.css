@@ -62,13 +62,14 @@ h1 {
   padding-bottom: 60px;
 }
 
+h2,
 h3 {
   text-align: center;
   padding: 20px;
   margin-top: 30px;
 }
 
-h4 {
+h5 {
   text-align: center;
   padding: 25px;
   margin-bottom: 35px;
@@ -104,4 +105,46 @@ p {
 
 .contact-h1 {
   color: white;
+}
+
+.form-group {
+  text-align: center;
+  padding: 10px;
+}
+
+#name,
+#email {
+  width: 300px;
+  height: 40px;
+}
+
+#message {
+  width: 600px;
+  height: 60px;
+}
+
+#submit {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  background-color: #8799a1;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+
+.contact-link a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-link h4 {
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
 }
