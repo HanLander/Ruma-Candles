@@ -44,21 +44,24 @@ nav li.active a {
   font-size: 60px;
   margin-top: 40px;
   padding-bottom: 25px;
-}
-
-button {
-  margin-bottom: 50px;
-}
-
-button a {
-  text-decoration: none;
-  color: black;
+  font-weight: lighter;
 }
 
 img {
   max-width: 100%;
-  padding-bottom: 50px;
-  border-radius: 2px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+}
+
+.container img:hover {
+  transform: scale(1.5);
+  transition: all 150ms ease-in-out;
+}
+
+.container p {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h1 {
@@ -66,6 +69,11 @@ h1 {
   font-size: 60px;
   margin-top: 40px;
   padding-bottom: 60px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
 }
 
 h2,
@@ -107,6 +115,15 @@ p {
   margin-left: 30px;
   margin-top: 70px;
   border-radius: 3px;
+}
+
+button {
+  margin-bottom: 50px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
 }
 
 .contact-h1 {
