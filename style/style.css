@@ -53,15 +53,16 @@ img {
   border-radius: 3px;
 }
 
-.container img:hover {
+.homepage-content-container img:hover {
   transform: scale(1.5);
   transition: all 150ms ease-in-out;
 }
 
-.container p {
+.homepage-content-container p {
   font-size: 18px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -142,38 +143,11 @@ button a {
   margin-bottom: 60px;
 }
 
-.form-group {
-  text-align: center;
-  padding: 10px;
-}
-
-#name,
-#email {
-  width: 300px;
-  height: 40px;
-}
-
-#message {
-  width: 600px;
-  height: 60px;
-}
-
-#submit {
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 18px;
-  background-color: #8799a1;
-  border-radius: 3px;
-  border: none;
-  color: white;
-}
-
 .contact-link a {
   text-align: center;
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 
@@ -181,5 +155,5 @@ button a {
   padding: 10px;
   margin-top: 30px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
