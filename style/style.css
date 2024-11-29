@@ -7,6 +7,7 @@
   max-width: 1400px;
   margin: 0 auto;
   font-family: "MyCustomFont";
+  background-color: rgb(144, 158, 167, 0.2);
 }
 
 nav {
@@ -35,7 +36,7 @@ nav li.active a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 220px;
-  margin-top: 100px;
+  margin-top: 30px;
   border-radius: 2px;
 }
 
@@ -102,7 +103,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 220px;
-  margin-top: 60px;
+  margin-top: 30px;
   border-radius: 2px;
   margin-bottom: 60px;
 }
@@ -119,15 +120,48 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 220px;
-  margin-top: 60px;
+  margin-top: 30px;
   border-radius: 2px;
   margin-bottom: 60px;
 }
 
-button {
-  margin-bottom: 50px;
+.product-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
+.product-content-container h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.product-content-container h5 {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.product-content-container img {
+  max-width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.product-content-container p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+button {
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 2px;
+  background-color: rgb(174, 201, 211, 0.3);
+  border: none;
+  font-size: 16px;
+}
 button a {
   text-decoration: none;
   color: black;
@@ -138,7 +172,7 @@ button a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 220px;
-  margin-top: 60px;
+  margin-top: 30px;
   border-radius: 2px;
   margin-bottom: 60px;
 }
