@@ -3,10 +3,12 @@
   src: url("./font/hunter-webfont.woff");
 }
 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .body-container {
   max-width: 1400px;
   margin: 0 auto;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -34,6 +36,7 @@ nav li.active a {
   background-image: url("../src/ruma_banner_crop.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
   padding: 220px;
   margin-top: 30px;
   border-radius: 2px;
@@ -74,9 +77,9 @@ img {
 
 h1 {
   text-align: center;
-  font-size: 60px;
-  margin-top: 40px;
-  padding-bottom: 60px;
+  font-size: 50px;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 h1 a {
@@ -115,6 +118,8 @@ p {
 }
 
 .about-body-container {
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: rgb(144, 158, 167, 0.2);
   padding-left: 10px;
   padding-right: 10px;
@@ -163,7 +168,6 @@ p {
 }
 
 .product-content-container p {
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 14px;
@@ -192,9 +196,12 @@ button a {
 }
 
 .contact-body-container {
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: rgb(144, 158, 167, 0.2);
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 20px;
 }
 
 .contact-link a {
@@ -210,4 +217,51 @@ button a {
   margin-top: 30px;
   text-align: center;
   font-size: 40px;
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .product-hero,
+  .about-hero,
+  .contact-hero {
+    padding: 80px 0;
+    margin-top: 15px;
+  }
+
+  h1 {
+    font-size: 34px;
+    margin-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .homepage-content-container img {
+    padding-bottom: 15px;
+  }
+
+  .homepage-content-container img:hover {
+    transform: none;
+  }
+
+  .about-body-container p {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .about-body-container img {
+    margin-top: 25px;
+  }
+
+  .product-content-container h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+
+  .product-content-container img {
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .product-content-container h5 {
+    padding: 10px;
+    margin-top: 20px;
+  }
 }
